@@ -11,7 +11,7 @@ Name:		perl-Class-XPath
 Version:	1.4
 Release:	1
 # same as perl 5
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	22ff3d2536027f3a9f59c6eb849fa610
