@@ -8,13 +8,13 @@
 Summary:	Class::XPath - module that adds XPath matching to object trees
 Summary(pl):	Class::XPath - modu³ dodaj±cy dopasowywanie XPath do drzew obiektów
 Name:		perl-Class-XPath
-Version:	1.3
+Version:	1.4
 Release:	1
 # same as perl 5
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5618170bb2990d6a78d53a6035158b78
+# Source0-md5:	22ff3d2536027f3a9f59c6eb849fa610
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
