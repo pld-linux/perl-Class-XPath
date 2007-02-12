@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	XPath
 Summary:	Class::XPath - module that adds XPath matching to object trees
-Summary(pl):	Class::XPath - modu³ dodaj±cy dopasowywanie XPath do drzew obiektów
+Summary(pl.UTF-8):   Class::XPath - moduÅ‚ dodajÄ…cy dopasowywanie XPath do drzew obiektÃ³w
 Name:		perl-Class-XPath
 Version:	1.4
 Release:	1
@@ -26,11 +26,11 @@ that you can find nodes using an XPath-esque query with "match()" from
 anywhere in the tree. Also, the "xpath()" method returns a unique path
 to a given node which can be used as an identifier.
 
-%description -l pl
-Ten modu³ dodaje dopasowywanie w stylu XPath do drzew obiektów.
-Oznacza to, ¿e mo¿na szukaæ wêz³ów przy u¿yciu zapytania typu XPath
-funkcj± "match()" z ka¿dego miejsca w drzewie. Ponadto metoda
-"xpath()" zwraca unikaln± ¶cie¿kê do danego wêz³a, któr± mo¿na u¿ywaæ
+%description -l pl.UTF-8
+Ten moduÅ‚ dodaje dopasowywanie w stylu XPath do drzew obiektÃ³w.
+Oznacza to, Å¼e moÅ¼na szukaÄ‡ wÄ™zÅ‚Ã³w przy uÅ¼yciu zapytania typu XPath
+funkcjÄ… "match()" z kaÅ¼dego miejsca w drzewie. Ponadto metoda
+"xpath()" zwraca unikalnÄ… Å›cieÅ¼kÄ™ do danego wÄ™zÅ‚a, ktÃ³rÄ… moÅ¼na uÅ¼ywaÄ‡
 jako identyfikator.
 
 %prep
