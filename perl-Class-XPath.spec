@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Class
 %define		pnam	XPath
+%include	/usr/lib/rpm/macros.perl
 Summary:	Class::XPath - module that adds XPath matching to object trees
 Summary(pl.UTF-8):	Class::XPath - moduł dodający dopasowywanie XPath do drzew obiektów
 Name:		perl-Class-XPath
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	22ff3d2536027f3a9f59c6eb849fa610
+URL:		http://search.cpan.org/dist/Class-XPath/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
