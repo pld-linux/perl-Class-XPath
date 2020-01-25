@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	XPath
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::XPath - module that adds XPath matching to object trees
 Summary(pl.UTF-8):	Class::XPath - moduł dodający dopasowywanie XPath do drzew obiektów
 Name:		perl-Class-XPath
